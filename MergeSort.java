@@ -6,7 +6,7 @@ public class MergeSort{
         if (n < 2) {
             return;
         }
-        // seperate the array from the middle
+        // separate the array from the middle
         int mid = n / 2;
         // define left half array
         int[] l = new int[mid];
