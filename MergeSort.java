@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MergeSort{
     public static void mergeSort(int[] a, int n) {
         // if every array contains one element, return
@@ -50,10 +52,8 @@ public class MergeSort{
         }
     }
     public static void main(String[] args) {
-        int[] a = {2,4,5,1,2};
-        MergeSort.mergeSort(a, 5);
-        for(int i = 0; i < a.length; i++){
-            System.err.println(a[i]);
-        }
+        int[] arr = {2,4,5,1,2};
+        MergeSort.mergeSort(arr, 5);
+        System.out.println(Arrays.toString(arr));
     }
 }
